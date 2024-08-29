@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(8, 139, 232);
+    color: white;
+ }
+
+.navbar{
+    display: inline;
+    margin-left: 40px;
+    margin-top:  30px;
+}
+footer{
+    display: flex;
+    height: 300px;
+    background-color: rgba(73, 204, 240,1);
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.head4{
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+   
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin-top: 50px;
+}
+.one{
+    margin: 40px;
+    padding: 30px;
+}
+.two{
+    margin: 40px;
+    padding: 30px;
+}
+.three{
+    margin: 40px;
+    padding: 30px;
+}
+.content1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.item{
+    width: 30%;
+   background-image: url(assets/blue.jpg);
+   height: 280px;
+   border-radius: 10px;
+   box-shadow: 3px 3px 3px 3px  lightblue;
+   display: flex;
+}
+main{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+.sujeet{
+    margin-top: 90px;
+    color: white;
+
+}
+button{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(225, 25, 52);
+    background-color: rgb(235, 237, 238);
+    border-radius: 5px;
+    width:100px;
+}
+.sujeet1{
+    margin-top: 70px;
+}
+.hover:hover{
+    color: red;
+}
+body{
+    background-color: bisque;
+}
+.raj{
+    cursor: pointer;
+}
+.head1>.logo{
+    mix-blend-mode:lighten;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
